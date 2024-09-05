@@ -1,0 +1,6 @@
+framework module Pods_The_legendary_CoupleTests {
+  umbrella header "Pods-The legendary CoupleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
