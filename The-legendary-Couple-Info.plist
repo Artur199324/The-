@@ -6,9 +6,5 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict/>
-	<key>UISupportedDevices</key>
-	<array>
-		<string>iPhone</string>
-	</array>
 </dict>
 </plist>
