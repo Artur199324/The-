@@ -14,8 +14,6 @@
 		756EF4DE2C9AE0FF0026EB10 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4DD2C9AE0FF0026EB10 /* OneSignalFramework */; };
 		756EF4E02C9AE0FF0026EB10 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4DF2C9AE0FF0026EB10 /* OneSignalInAppMessages */; };
 		756EF4E22C9AE0FF0026EB10 /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4E12C9AE0FF0026EB10 /* OneSignalLocation */; };
-		756EF4EA2C9AE24F0026EB10 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF4E92C9AE24F0026EB10 /* NotificationService.swift */; };
-		756EF4EE2C9AE24F0026EB10 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 756EF4E72C9AE24F0026EB10 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		756EF4F52C9AE6270026EB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF4F42C9AE6270026EB10 /* AppDelegate.swift */; };
 		756EF4F82C9AE9380026EB10 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4F72C9AE9380026EB10 /* AppsFlyerLib */; };
 		756EF4FA2C9B08B50026EB10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 756EF4F92C9B08B50026EB10 /* GoogleService-Info.plist */; };
@@ -66,13 +64,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		756EF4EC2C9AE24F0026EB10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75B586F82C899DA600F23B08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 756EF4E62C9AE24F0026EB10;
-			remoteInfo = OneSignalNotificationServiceExtension;
-		};
 		75B587112C899DA800F23B08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75B586F82C899DA600F23B08 /* Project object */;
@@ -96,7 +87,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				756EF4EE2C9AE24F0026EB10 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,9 +100,6 @@
 		48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_CoupleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8A594BF2A70613A9129189 /* Pods-The legendary CoupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary CoupleTests.debug.xcconfig"; path = "Target Support Files/Pods-The legendary CoupleTests/Pods-The legendary CoupleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		63D97983A1BBC94159C48E5F /* Pods-The legendary CoupleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary CoupleTests.release.xcconfig"; path = "Target Support Files/Pods-The legendary CoupleTests/Pods-The legendary CoupleTests.release.xcconfig"; sourceTree = "<group>"; };
-		756EF4E72C9AE24F0026EB10 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		756EF4E92C9AE24F0026EB10 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		756EF4EB2C9AE24F0026EB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756EF4F32C9AE5AE0026EB10 /* The legendary Couple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The legendary Couple.entitlements"; sourceTree = "<group>"; };
 		756EF4F42C9AE6270026EB10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		756EF4F92C9B08B50026EB10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -168,13 +155,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		756EF4E42C9AE24F0026EB10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75B586FD2C899DA600F23B08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,15 +198,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		756EF4E82C9AE24F0026EB10 /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXGroup;
-			children = (
-				756EF4E92C9AE24F0026EB10 /* NotificationService.swift */,
-				756EF4EB2C9AE24F0026EB10 /* Info.plist */,
-			);
-			path = OneSignalNotificationServiceExtension;
-			sourceTree = "<group>";
-		};
 		75B586F72C899DA600F23B08 = {
 			isa = PBXGroup;
 			children = (
@@ -235,7 +206,6 @@
 				75B587022C899DA600F23B08 /* The legendary Couple */,
 				75B587132C899DA800F23B08 /* The legendary CoupleTests */,
 				75B5871D2C899DA800F23B08 /* The legendary CoupleUITests */,
-				756EF4E82C9AE24F0026EB10 /* OneSignalNotificationServiceExtension */,
 				75B587012C899DA600F23B08 /* Products */,
 				C4F54C69DEFC67A9516EE7E9 /* Pods */,
 				07EE54AE8A7EEE1C584C042B /* Frameworks */,
@@ -248,7 +218,6 @@
 				75B587002C899DA600F23B08 /* The legendary Couple.app */,
 				75B587102C899DA800F23B08 /* The legendary CoupleTests.xctest */,
 				75B5871A2C899DA800F23B08 /* The legendary CoupleUITests.xctest */,
-				756EF4E72C9AE24F0026EB10 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -382,23 +351,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		756EF4E62C9AE24F0026EB10 /* OneSignalNotificationServiceExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 756EF4EF2C9AE24F0026EB10 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
-			buildPhases = (
-				756EF4E32C9AE24F0026EB10 /* Sources */,
-				756EF4E42C9AE24F0026EB10 /* Frameworks */,
-				756EF4E52C9AE24F0026EB10 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OneSignalNotificationServiceExtension;
-			productName = OneSignalNotificationServiceExtension;
-			productReference = 756EF4E72C9AE24F0026EB10 /* OneSignalNotificationServiceExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		75B586FF2C899DA600F23B08 /* The legendary Couple */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B587242C899DA800F23B08 /* Build configuration list for PBXNativeTarget "The legendary Couple" */;
@@ -412,7 +364,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				756EF4ED2C9AE24F0026EB10 /* PBXTargetDependency */,
 			);
 			name = "The legendary Couple";
 			packageProductDependencies = (
@@ -475,9 +426,6 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					756EF4E62C9AE24F0026EB10 = {
-						CreatedOnToolsVersion = 15.3;
-					};
 					75B586FF2C899DA600F23B08 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -512,19 +460,11 @@
 				75B586FF2C899DA600F23B08 /* The legendary Couple */,
 				75B5870F2C899DA800F23B08 /* The legendary CoupleTests */,
 				75B587192C899DA800F23B08 /* The legendary CoupleUITests */,
-				756EF4E62C9AE24F0026EB10 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		756EF4E52C9AE24F0026EB10 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75B586FE2C899DA600F23B08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,14 +563,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		756EF4E32C9AE24F0026EB10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				756EF4EA2C9AE24F0026EB10 /* NotificationService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75B586FC2C899DA600F23B08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -695,11 +627,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		756EF4ED2C9AE24F0026EB10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 756EF4E62C9AE24F0026EB10 /* OneSignalNotificationServiceExtension */;
-			targetProxy = 756EF4EC2C9AE24F0026EB10 /* PBXContainerItemProxy */;
-		};
 		75B587122C899DA800F23B08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75B586FF2C899DA600F23B08 /* The legendary Couple */;
@@ -713,54 +640,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		756EF4F02C9AE24F0026EB10 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thelegendarouple.OneSignalNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		756EF4F12C9AE24F0026EB10 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thelegendarouple.OneSignalNotificationServiceExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		75B587222C899DA800F23B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -889,7 +768,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "The legendary Couple/The legendary Couple.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"The legendary Couple/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -903,7 +782,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelegendarouple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -925,7 +804,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "The legendary Couple/The legendary Couple.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"The legendary Couple/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -939,7 +818,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0;
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelegendarouple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1031,15 +910,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		756EF4EF2C9AE24F0026EB10 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				756EF4F02C9AE24F0026EB10 /* Debug */,
-				756EF4F12C9AE24F0026EB10 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		75B586FB2C899DA600F23B08 /* Build configuration list for PBXProject "The legendary Couple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
