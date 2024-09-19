@@ -27,31 +27,21 @@ workflows:
           cd $CM_BUILD_DIR
           LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
-      - name: Enable detailed logging
-        script: |
-          set -x
-          env | sort
       - name: Obfuscate Swift code
         script: |
           # Simple example of obfuscating Swift code
           # Replace occurrences of function names or variables with obfuscated names
           find . -name "*.swift" -print0 | xargs -0 sed -i '' -e 's/\b(\w+)\b/$1_obf/g'
-      - name: Build ipa for distribution with detailed logging
+      - name: Build ipa for distribution
         script: |
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
-            --scheme "$XCODE_SCHEME" \
-            --verbose \
-            | tee /tmp/xcodebuild.log
-      - name: Archive detailed logs
-        script: |
-          cp /tmp/xcodebuild.log $HOME/Library/Developer/Xcode/DerivedData/xcodebuild.log
+            --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
-      - $HOME/Library/Developer/Xcode/DerivedData/xcodebuild.log
     publishing:
       email:
         recipients:
