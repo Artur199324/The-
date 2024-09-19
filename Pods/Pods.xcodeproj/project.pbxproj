@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0520CFA0BDDD8BAF86B203F89C2AFC21 /* Pods-The legendary CoupleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9995A1C78F9AD787393267A896CD3 /* Pods-The legendary CoupleTests-dummy.m */; };
+		0520CFA0BDDD8BAF86B203F89C2AFC21 /* Pods-The legendary CoupleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F21F7B45F9D761D767D1A23AD57CAA /* Pods-The legendary CoupleTests-dummy.m */; };
 		17A179DF2AB05ACCDAF2ABA5EB8C117E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1A259C1FBC951E9A383CF9D58AE30905 /* Pods-The legendary Couple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D05952D6556AF6AC7A41410611543446 /* Pods-The legendary Couple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CD50477EDDD7C44CCEEA00E54B71B57 /* Pods-The legendary CoupleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDB0F251A7353761ED35315D0953B9D /* Pods-The legendary CoupleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240B77F1FC9E5A6F1CAB631C841FC3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1A259C1FBC951E9A383CF9D58AE30905 /* Pods-The legendary Couple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7138F15B7FE152F51762249EEC903EF2 /* Pods-The legendary Couple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD50477EDDD7C44CCEEA00E54B71B57 /* Pods-The legendary CoupleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2768AF7815C9D8F9FC7BD932272CC0 /* Pods-The legendary CoupleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34A2E6F5F3C6830B3292F84862DB471F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		728DD3551A5FD9F719AEBCDA567162D6 /* Pods-The legendary Couple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 575680B227AF621435A16E62600AC882 /* Pods-The legendary Couple-dummy.m */; };
-		E9F042AAB65F05D6FCCA264FB700B2A4 /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E2EE654AF9A0645CFE4A75C8DB10DD /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBC1B448976974392CCD32ED1DCC9502 /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 604AD313D959A0FB0E5AE4C72CDDDCAC /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */; };
+		6808AFF65B78BEA2AF59B9595A4882F8 /* Pods-The legendary CoupleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D61850C9C9026C972AE8A1F0C5936983 /* Pods-The legendary CoupleUITests-dummy.m */; };
+		728DD3551A5FD9F719AEBCDA567162D6 /* Pods-The legendary Couple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF38F2FCE4254A24B98D40A5762C2D1 /* Pods-The legendary Couple-dummy.m */; };
+		9B7F273175452EB491B37E1AD003AB4F /* Pods-The legendary CoupleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76896BDE2EFCA88A2DB630B7286E7855 /* Pods-The legendary CoupleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B127245A3E3900210325E8CEE27EAD81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		50A405BA06C1EC15C0B1FA5A83E84AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF84B8BC55DCF265E40E151EECBAFB8F;
+			remoteInfo = "Pods-The legendary Couple";
+		};
 		D5F078ED372EFBAFB50CA459595AB5DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -29,35 +36,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E191F06450CA1DBC5C78AFC3BBCF91B /* Pods-The legendary CoupleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary CoupleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3004BCF8758DB50F1B5F75FCE1594DB1 /* Pods-The legendary CoupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E519496C3FE8AFACD70BAE2D1B703BB /* Pods-The legendary Couple-The legendary CoupleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple-The legendary CoupleUITests.modulemap"; sourceTree = "<group>"; };
-		533026F21F0F286C563ADBA32E7693A7 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		575680B227AF621435A16E62600AC882 /* Pods-The legendary Couple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-dummy.m"; sourceTree = "<group>"; };
-		5BF6F93689AD364C5AEEE72291241D4B /* Pods-The legendary CoupleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary CoupleTests.modulemap"; sourceTree = "<group>"; };
-		604AD313D959A0FB0E5AE4C72CDDDCAC /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-The legendary CoupleUITests-dummy.m"; sourceTree = "<group>"; };
-		6614F3295FDDD87F79A82864ECCB61FD /* Pods-The legendary Couple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-acknowledgements.plist"; sourceTree = "<group>"; };
-		6D01724F4137DCD89C014FD1892B71BF /* Pods-The legendary CoupleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.release.xcconfig"; sourceTree = "<group>"; };
-		6E086846DC223D7D082E746E715C15F1 /* Pods-The legendary Couple-The legendary CoupleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-The legendary CoupleUITests-Info.plist"; sourceTree = "<group>"; };
+		05FD76E76AD3705B9445E46D7BE1B890 /* Pods-The legendary CoupleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-Info.plist"; sourceTree = "<group>"; };
+		177BAEC76723B9E1091792C4E684E7F8 /* Pods-The legendary Couple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple.modulemap"; sourceTree = "<group>"; };
+		24C4FA8F68AA00D30729672E14CB1B07 /* Pods-The legendary CoupleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary CoupleTests.modulemap"; sourceTree = "<group>"; };
+		278668C62B00C00935664B20C04297CC /* Pods-The legendary Couple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FC27FB92C5CEE0B0A6DD53993BBF019 /* Pods-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B2768AF7815C9D8F9FC7BD932272CC0 /* Pods-The legendary CoupleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary CoupleTests-umbrella.h"; sourceTree = "<group>"; };
+		61C93DA4DA8555C7B19FACF8EBE3D331 /* Pods-The legendary CoupleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleUITests-Info.plist"; sourceTree = "<group>"; };
+		62359D25B4E7E9638387A223433CC7C4 /* Pods-The legendary CoupleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		661C50E94A3F2114349CBF9839531AD5 /* Pods-The legendary CoupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7138F15B7FE152F51762249EEC903EF2 /* Pods-The legendary Couple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AA5E827486400BA659433442804AEA4 /* Pods-The legendary Couple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-Info.plist"; sourceTree = "<group>"; };
+		76896BDE2EFCA88A2DB630B7286E7855 /* Pods-The legendary CoupleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary CoupleUITests-umbrella.h"; sourceTree = "<group>"; };
+		7AC5223194CD03F1CC3D2DD06FFA1A63 /* Pods-The legendary CoupleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B8BE69774C9DF2DFD4E672FB9BAE99C /* Pods-The legendary Couple */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary Couple"; path = Pods_The_legendary_Couple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82629A9404D31441420C5CD1DA0AFC59 /* Pods-The legendary CoupleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-Info.plist"; sourceTree = "<group>"; };
-		84E2EE654AF9A0645CFE4A75C8DB10DD /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h"; sourceTree = "<group>"; };
+		7CD7B1B6E28F68BE38E3C5A8A9A3E03C /* Pods-The legendary CoupleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary CoupleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8265E2FC867C7FF5F6F3B3BCAEC0A0A1 /* Pods-The legendary CoupleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary CoupleUITests.modulemap"; sourceTree = "<group>"; };
+		83216F1F6D80A1011AD5637F345CEEF9 /* Pods-The legendary CoupleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary CoupleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A38525EF94E973C4158ED35371C50542 /* Pods-The legendary Couple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A749F4D1A5662895F1EB2DCC68F03922 /* Pods-The legendary Couple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.release.xcconfig"; sourceTree = "<group>"; };
+		9E7F33306C58E97E4E9C0A7F81BD0821 /* Pods-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAA4CB06FABDCEE08598E4C4F1EB17D9 /* Pods-The legendary CoupleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary CoupleTests"; path = Pods_The_legendary_CoupleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEEE825BA01256D1A41276AD9DE14D3A /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C3EB98097C936D4A2D0AA73C0425341C /* Pods-The legendary Couple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple.modulemap"; sourceTree = "<group>"; };
-		D05952D6556AF6AC7A41410611543446 /* Pods-The legendary Couple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-umbrella.h"; sourceTree = "<group>"; };
-		D9A1D349AD2F887D3B6AD1C947F066A6 /* Pods-The legendary Couple-The legendary CoupleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary Couple-The legendary CoupleUITests"; path = Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8C1C09B1860A9045294A28B6081F40 /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DFDB0F251A7353761ED35315D0953B9D /* Pods-The legendary CoupleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary CoupleTests-umbrella.h"; sourceTree = "<group>"; };
-		E866D6FC11CD5950885F7D23A717B6CA /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F0F9995A1C78F9AD787393267A896CD3 /* Pods-The legendary CoupleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary CoupleTests-dummy.m"; sourceTree = "<group>"; };
-		F7A86F3AB1631A6BDC52264C6262B205 /* Pods-The legendary CoupleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F98400E80456D94BF41A4F6E531D97AA /* Pods-The legendary Couple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.debug.xcconfig"; sourceTree = "<group>"; };
+		C03499360EF7E03C1C1DDCCFB0C5ECBD /* Pods-The legendary Couple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.debug.xcconfig"; sourceTree = "<group>"; };
+		D5594E0283CC3EA10AB45F167374399D /* Pods-The legendary Couple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D61850C9C9026C972AE8A1F0C5936983 /* Pods-The legendary CoupleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary CoupleUITests-dummy.m"; sourceTree = "<group>"; };
+		D92D9B26F2FA32AAB8B32C27EA13FF22 /* Pods-The legendary CoupleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E58CFED6028C2E8ECE1024ED0017C21B /* Pods-The legendary Couple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.release.xcconfig"; sourceTree = "<group>"; };
+		EBF38F2FCE4254A24B98D40A5762C2D1 /* Pods-The legendary Couple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-dummy.m"; sourceTree = "<group>"; };
+		F2659384CB1712C3BC6AE9D6C379C9AE /* Pods-The legendary CoupleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary CoupleUITests"; path = Pods_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5396A9364ABC736E9696681DEFADA88 /* Pods-The legendary Couple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-Info.plist"; sourceTree = "<group>"; };
+		F9F21F7B45F9D761D767D1A23AD57CAA /* Pods-The legendary CoupleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary CoupleTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +76,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B65291752FBAD3D7D4F639A0AA08276 /* Frameworks */ = {
+		7A8906860950CF2BC6DA0646A834ADA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240B77F1FC9E5A6F1CAB631C841FC3E3 /* Foundation.framework in Frameworks */,
+				B127245A3E3900210325E8CEE27EAD81 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +95,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49D28035C2051500ED6899EA0D8AB45A /* Pods-The legendary CoupleTests */ = {
+			isa = PBXGroup;
+			children = (
+				24C4FA8F68AA00D30729672E14CB1B07 /* Pods-The legendary CoupleTests.modulemap */,
+				7CD7B1B6E28F68BE38E3C5A8A9A3E03C /* Pods-The legendary CoupleTests-acknowledgements.markdown */,
+				D92D9B26F2FA32AAB8B32C27EA13FF22 /* Pods-The legendary CoupleTests-acknowledgements.plist */,
+				F9F21F7B45F9D761D767D1A23AD57CAA /* Pods-The legendary CoupleTests-dummy.m */,
+				05FD76E76AD3705B9445E46D7BE1B890 /* Pods-The legendary CoupleTests-Info.plist */,
+				4B2768AF7815C9D8F9FC7BD932272CC0 /* Pods-The legendary CoupleTests-umbrella.h */,
+				661C50E94A3F2114349CBF9839531AD5 /* Pods-The legendary CoupleTests.debug.xcconfig */,
+				7AC5223194CD03F1CC3D2DD06FFA1A63 /* Pods-The legendary CoupleTests.release.xcconfig */,
+			);
+			name = "Pods-The legendary CoupleTests";
+			path = "Target Support Files/Pods-The legendary CoupleTests";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,46 +119,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		68A17C9A7AB2DFFB528D30DECF5B0F70 /* Pods-The legendary Couple */ = {
+		6B9EF615AEC35EC5032DB59D00E43C83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3EB98097C936D4A2D0AA73C0425341C /* Pods-The legendary Couple.modulemap */,
-				A38525EF94E973C4158ED35371C50542 /* Pods-The legendary Couple-acknowledgements.markdown */,
-				6614F3295FDDD87F79A82864ECCB61FD /* Pods-The legendary Couple-acknowledgements.plist */,
-				575680B227AF621435A16E62600AC882 /* Pods-The legendary Couple-dummy.m */,
-				7AA5E827486400BA659433442804AEA4 /* Pods-The legendary Couple-Info.plist */,
-				D05952D6556AF6AC7A41410611543446 /* Pods-The legendary Couple-umbrella.h */,
-				F98400E80456D94BF41A4F6E531D97AA /* Pods-The legendary Couple.debug.xcconfig */,
-				A749F4D1A5662895F1EB2DCC68F03922 /* Pods-The legendary Couple.release.xcconfig */,
+				7B8BE69774C9DF2DFD4E672FB9BAE99C /* Pods-The legendary Couple */,
+				BAA4CB06FABDCEE08598E4C4F1EB17D9 /* Pods-The legendary CoupleTests */,
+				F2659384CB1712C3BC6AE9D6C379C9AE /* Pods-The legendary CoupleUITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2CF513D2721C60ADDD76F17F7F99EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C958807F3BA4B45248802F519F6C5 /* Pods-The legendary Couple */,
+				49D28035C2051500ED6899EA0D8AB45A /* Pods-The legendary CoupleTests */,
+				D969E2C648BAFFB2DE897EBA7422D4BA /* Pods-The legendary CoupleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9A3C958807F3BA4B45248802F519F6C5 /* Pods-The legendary Couple */ = {
+			isa = PBXGroup;
+			children = (
+				177BAEC76723B9E1091792C4E684E7F8 /* Pods-The legendary Couple.modulemap */,
+				D5594E0283CC3EA10AB45F167374399D /* Pods-The legendary Couple-acknowledgements.markdown */,
+				278668C62B00C00935664B20C04297CC /* Pods-The legendary Couple-acknowledgements.plist */,
+				EBF38F2FCE4254A24B98D40A5762C2D1 /* Pods-The legendary Couple-dummy.m */,
+				F5396A9364ABC736E9696681DEFADA88 /* Pods-The legendary Couple-Info.plist */,
+				7138F15B7FE152F51762249EEC903EF2 /* Pods-The legendary Couple-umbrella.h */,
+				C03499360EF7E03C1C1DDCCFB0C5ECBD /* Pods-The legendary Couple.debug.xcconfig */,
+				E58CFED6028C2E8ECE1024ED0017C21B /* Pods-The legendary Couple.release.xcconfig */,
 			);
 			name = "Pods-The legendary Couple";
 			path = "Target Support Files/Pods-The legendary Couple";
-			sourceTree = "<group>";
-		};
-		7847E5326F224CCB3F36602A3D8A0976 /* Pods-The legendary Couple-The legendary CoupleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3E519496C3FE8AFACD70BAE2D1B703BB /* Pods-The legendary Couple-The legendary CoupleUITests.modulemap */,
-				BEEE825BA01256D1A41276AD9DE14D3A /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown */,
-				DF8C1C09B1860A9045294A28B6081F40 /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist */,
-				604AD313D959A0FB0E5AE4C72CDDDCAC /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */,
-				6E086846DC223D7D082E746E715C15F1 /* Pods-The legendary Couple-The legendary CoupleUITests-Info.plist */,
-				84E2EE654AF9A0645CFE4A75C8DB10DD /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */,
-				533026F21F0F286C563ADBA32E7693A7 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */,
-				E866D6FC11CD5950885F7D23A717B6CA /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */,
-			);
-			name = "Pods-The legendary Couple-The legendary CoupleUITests";
-			path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests";
-			sourceTree = "<group>";
-		};
-		AB87AF6786FC4794AD04E9B86B48B0DD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				68A17C9A7AB2DFFB528D30DECF5B0F70 /* Pods-The legendary Couple */,
-				7847E5326F224CCB3F36602A3D8A0976 /* Pods-The legendary Couple-The legendary CoupleUITests */,
-				F1DD3AA789BC5319147B43979DB97122 /* Pods-The legendary CoupleTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -143,19 +160,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D0DA518E8650F1F5C38520DF04CD6B34 /* Products */,
-				AB87AF6786FC4794AD04E9B86B48B0DD /* Targets Support Files */,
+				6B9EF615AEC35EC5032DB59D00E43C83 /* Products */,
+				7D2CF513D2721C60ADDD76F17F7F99EB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0DA518E8650F1F5C38520DF04CD6B34 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7B8BE69774C9DF2DFD4E672FB9BAE99C /* Pods-The legendary Couple */,
-				D9A1D349AD2F887D3B6AD1C947F066A6 /* Pods-The legendary Couple-The legendary CoupleUITests */,
-				BAA4CB06FABDCEE08598E4C4F1EB17D9 /* Pods-The legendary CoupleTests */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -166,33 +173,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F1DD3AA789BC5319147B43979DB97122 /* Pods-The legendary CoupleTests */ = {
+		D969E2C648BAFFB2DE897EBA7422D4BA /* Pods-The legendary CoupleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5BF6F93689AD364C5AEEE72291241D4B /* Pods-The legendary CoupleTests.modulemap */,
-				2E191F06450CA1DBC5C78AFC3BBCF91B /* Pods-The legendary CoupleTests-acknowledgements.markdown */,
-				F7A86F3AB1631A6BDC52264C6262B205 /* Pods-The legendary CoupleTests-acknowledgements.plist */,
-				F0F9995A1C78F9AD787393267A896CD3 /* Pods-The legendary CoupleTests-dummy.m */,
-				82629A9404D31441420C5CD1DA0AFC59 /* Pods-The legendary CoupleTests-Info.plist */,
-				DFDB0F251A7353761ED35315D0953B9D /* Pods-The legendary CoupleTests-umbrella.h */,
-				3004BCF8758DB50F1B5F75FCE1594DB1 /* Pods-The legendary CoupleTests.debug.xcconfig */,
-				6D01724F4137DCD89C014FD1892B71BF /* Pods-The legendary CoupleTests.release.xcconfig */,
+				8265E2FC867C7FF5F6F3B3BCAEC0A0A1 /* Pods-The legendary CoupleUITests.modulemap */,
+				83216F1F6D80A1011AD5637F345CEEF9 /* Pods-The legendary CoupleUITests-acknowledgements.markdown */,
+				62359D25B4E7E9638387A223433CC7C4 /* Pods-The legendary CoupleUITests-acknowledgements.plist */,
+				D61850C9C9026C972AE8A1F0C5936983 /* Pods-The legendary CoupleUITests-dummy.m */,
+				61C93DA4DA8555C7B19FACF8EBE3D331 /* Pods-The legendary CoupleUITests-Info.plist */,
+				76896BDE2EFCA88A2DB630B7286E7855 /* Pods-The legendary CoupleUITests-umbrella.h */,
+				9E7F33306C58E97E4E9C0A7F81BD0821 /* Pods-The legendary CoupleUITests.debug.xcconfig */,
+				3FC27FB92C5CEE0B0A6DD53993BBF019 /* Pods-The legendary CoupleUITests.release.xcconfig */,
 			);
-			name = "Pods-The legendary CoupleTests";
-			path = "Target Support Files/Pods-The legendary CoupleTests";
+			name = "Pods-The legendary CoupleUITests";
+			path = "Target Support Files/Pods-The legendary CoupleUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		237590047D0F5FA29E67E04596778786 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9F042AAB65F05D6FCCA264FB700B2A4 /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5B22B3D3946335A188C922F5F7814A9B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A259C1FBC951E9A383CF9D58AE30905 /* Pods-The legendary Couple-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D7893CC2C314C7E68DABB106AF60CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7F273175452EB491B37E1AD003AB4F /* Pods-The legendary CoupleUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,22 +238,23 @@
 			productReference = BAA4CB06FABDCEE08598E4C4F1EB17D9 /* Pods-The legendary CoupleTests */;
 			productType = "com.apple.product-type.framework";
 		};
-		17768E3800E929D98D1B2EFC06862854 /* Pods-The legendary Couple-The legendary CoupleUITests */ = {
+		1E7FEE8A659D27681F91059F97B1F293 /* Pods-The legendary CoupleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65B23B68A022A54892082EFC6DF2DAF4 /* Build configuration list for PBXNativeTarget "Pods-The legendary Couple-The legendary CoupleUITests" */;
+			buildConfigurationList = 1C6FF24C518729D8A64D17011AED6DCA /* Build configuration list for PBXNativeTarget "Pods-The legendary CoupleUITests" */;
 			buildPhases = (
-				237590047D0F5FA29E67E04596778786 /* Headers */,
-				2F653485801FFBF06A282FF364AF8FBC /* Sources */,
-				4B65291752FBAD3D7D4F639A0AA08276 /* Frameworks */,
-				ABC154A726ABAE5AAACA5CC4886F74D9 /* Resources */,
+				C4D7893CC2C314C7E68DABB106AF60CD /* Headers */,
+				442FB7DA04E1F41CF9CD2C721AA6A0D3 /* Sources */,
+				7A8906860950CF2BC6DA0646A834ADA9 /* Frameworks */,
+				93E624E5004AE88CD7D05DF7FBF15EED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				21848C45AA7BD326CED6E472EC6CA415 /* PBXTargetDependency */,
 			);
-			name = "Pods-The legendary Couple-The legendary CoupleUITests";
-			productName = Pods_The_legendary_Couple_The_legendary_CoupleUITests;
-			productReference = D9A1D349AD2F887D3B6AD1C947F066A6 /* Pods-The legendary Couple-The legendary CoupleUITests */;
+			name = "Pods-The legendary CoupleUITests";
+			productName = Pods_The_legendary_CoupleUITests;
+			productReference = F2659384CB1712C3BC6AE9D6C379C9AE /* Pods-The legendary CoupleUITests */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF84B8BC55DCF265E40E151EECBAFB8F /* Pods-The legendary Couple */ = {
@@ -286,13 +294,13 @@
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
-			productRefGroup = D0DA518E8650F1F5C38520DF04CD6B34 /* Products */;
+			productRefGroup = 6B9EF615AEC35EC5032DB59D00E43C83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CF84B8BC55DCF265E40E151EECBAFB8F /* Pods-The legendary Couple */,
-				17768E3800E929D98D1B2EFC06862854 /* Pods-The legendary Couple-The legendary CoupleUITests */,
 				16F3B94CF5FA31A12A1E6A0984326682 /* Pods-The legendary CoupleTests */,
+				1E7FEE8A659D27681F91059F97B1F293 /* Pods-The legendary CoupleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +320,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABC154A726ABAE5AAACA5CC4886F74D9 /* Resources */ = {
+		93E624E5004AE88CD7D05DF7FBF15EED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,11 +338,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F653485801FFBF06A282FF364AF8FBC /* Sources */ = {
+		442FB7DA04E1F41CF9CD2C721AA6A0D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBC1B448976974392CCD32ED1DCC9502 /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m in Sources */,
+				6808AFF65B78BEA2AF59B9595A4882F8 /* Pods-The legendary CoupleUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +357,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		21848C45AA7BD326CED6E472EC6CA415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-The legendary Couple";
+			target = CF84B8BC55DCF265E40E151EECBAFB8F /* Pods-The legendary Couple */;
+			targetProxy = 50A405BA06C1EC15C0B1FA5A83E84AF1 /* PBXContainerItemProxy */;
+		};
 		851E43350C792BA0A1DC5CEA2372CD81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-The legendary Couple";
@@ -358,46 +372,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DB7FC3BA04767D02F1FA14AFC732E3F /* Debug */ = {
+		0A5AB0CAF7A6DFFC75FDA9C2C92E2953 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 533026F21F0F286C563ADBA32E7693A7 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		289539365363D1C0FEB73E2DD3B060EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3004BCF8758DB50F1B5F75FCE1594DB1 /* Pods-The legendary CoupleTests.debug.xcconfig */;
+			baseConfigurationReference = 661C50E94A3F2114349CBF9839531AD5 /* Pods-The legendary CoupleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -411,7 +388,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-The legendary CoupleTests/Pods-The legendary CoupleTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,7 +409,7 @@
 			};
 			name = Debug;
 		};
-		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -485,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -498,9 +475,84 @@
 			};
 			name = Debug;
 		};
-		93EF271EB9D974EE869406B3AAABD7BB /* Release */ = {
+		744A8F56DBB68A06E547500176087EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D01724F4137DCD89C014FD1892B71BF /* Pods-The legendary CoupleTests.release.xcconfig */;
+			baseConfigurationReference = C03499360EF7E03C1C1DDCCFB0C5ECBD /* Pods-The legendary Couple.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4821D7AB9C197289586FBE84D425194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC27FB92C5CEE0B0A6DD53993BBF019 /* Pods-The legendary CoupleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-The legendary CoupleUITests/Pods-The legendary CoupleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-The legendary CoupleUITests/Pods-The legendary CoupleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB31C70E6B831005C09478A3A09677CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC5223194CD03F1CC3D2DD06FFA1A63 /* Pods-The legendary CoupleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -514,7 +566,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-The legendary CoupleTests/Pods-The legendary CoupleTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,9 +588,9 @@
 			};
 			name = Release;
 		};
-		942EE8AB8391520D6B85F779D68A4803 /* Release */ = {
+		BE1A3F37C942ECD8D4C97B15B497F7D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A749F4D1A5662895F1EB2DCC68F03922 /* Pods-The legendary Couple.release.xcconfig */;
+			baseConfigurationReference = E58CFED6028C2E8ECE1024ED0017C21B /* Pods-The legendary Couple.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -552,7 +604,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,9 +626,9 @@
 			};
 			name = Release;
 		};
-		B7A0D0E70CA7E7A8BAC52697C03BB8C4 /* Release */ = {
+		D39845C4CF5B90F4C4F9F3C64E80572B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E866D6FC11CD5950885F7D23A717B6CA /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */;
+			baseConfigurationReference = 9E7F33306C58E97E4E9C0A7F81BD0821 /* Pods-The legendary CoupleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -588,16 +640,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-The legendary CoupleUITests/Pods-The legendary CoupleUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-The legendary CoupleUITests/Pods-The legendary CoupleUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -606,13 +658,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -662,7 +713,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -674,51 +725,23 @@
 			};
 			name = Release;
 		};
-		D48565C16DEEAB327FD21CF00D15427E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F98400E80456D94BF41A4F6E531D97AA /* Pods-The legendary Couple.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C6FF24C518729D8A64D17011AED6DCA /* Build configuration list for PBXNativeTarget "Pods-The legendary CoupleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39845C4CF5B90F4C4F9F3C64E80572B /* Debug */,
+				A4821D7AB9C197289586FBE84D425194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3E71F66FF0DC6A6DC6949A3E8EAD4E5D /* Build configuration list for PBXNativeTarget "Pods-The legendary CoupleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				289539365363D1C0FEB73E2DD3B060EF /* Debug */,
-				93EF271EB9D974EE869406B3AAABD7BB /* Release */,
+				0A5AB0CAF7A6DFFC75FDA9C2C92E2953 /* Debug */,
+				AB31C70E6B831005C09478A3A09677CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -726,17 +749,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
-				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65B23B68A022A54892082EFC6DF2DAF4 /* Build configuration list for PBXNativeTarget "Pods-The legendary Couple-The legendary CoupleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0DB7FC3BA04767D02F1FA14AFC732E3F /* Debug */,
-				B7A0D0E70CA7E7A8BAC52697C03BB8C4 /* Release */,
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -744,8 +758,8 @@
 		AA6559A945A6DEAFE49A0461328C3DFB /* Build configuration list for PBXNativeTarget "Pods-The legendary Couple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D48565C16DEEAB327FD21CF00D15427E /* Debug */,
-				942EE8AB8391520D6B85F779D68A4803 /* Release */,
+				744A8F56DBB68A06E547500176087EC2 /* Debug */,
+				BE1A3F37C942ECD8D4C97B15B497F7D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17768E3800E929D98D1B2EFC06862854"
-               BuildableName = "Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework"
-               BlueprintName = "Pods-The legendary Couple-The legendary CoupleUITests"
+               BlueprintIdentifier = "1E7FEE8A659D27681F91059F97B1F293"
+               BuildableName = "Pods_The_legendary_CoupleUITests.framework"
+               BlueprintName = "Pods-The legendary CoupleUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

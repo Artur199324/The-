@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178BC27445A67A20B0184BF4 /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */; };
 		2B9969D27A3D91DE809C9E3E /* Pods_The_legendary_Couple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; };
 		694B2E7F8E5E3C51D9F33252 /* Pods_The_legendary_CoupleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */; };
-		756EF4DC2C9AE0FF0026EB10 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4DB2C9AE0FF0026EB10 /* OneSignalExtension */; };
-		756EF4DE2C9AE0FF0026EB10 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4DD2C9AE0FF0026EB10 /* OneSignalFramework */; };
-		756EF4E02C9AE0FF0026EB10 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4DF2C9AE0FF0026EB10 /* OneSignalInAppMessages */; };
-		756EF4E22C9AE0FF0026EB10 /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4E12C9AE0FF0026EB10 /* OneSignalLocation */; };
 		756EF4F52C9AE6270026EB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF4F42C9AE6270026EB10 /* AppDelegate.swift */; };
-		756EF4F82C9AE9380026EB10 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4F72C9AE9380026EB10 /* AppsFlyerLib */; };
 		756EF4FA2C9B08B50026EB10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 756EF4F92C9B08B50026EB10 /* GoogleService-Info.plist */; };
-		756EF4FD2C9B09130026EB10 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4FC2C9B09130026EB10 /* FirebaseRemoteConfig */; };
 		756EF4FF2C9B0FBC0026EB10 /* SaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF4FE2C9B0FBC0026EB10 /* SaveModel.swift */; };
 		756EF5012C9B16E30026EB10 /* Wevb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF5002C9B16E30026EB10 /* Wevb.swift */; };
+		756EF5432C9C3CEA0026EB10 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF5422C9C3CEA0026EB10 /* FirebaseRemoteConfig */; };
+		756EF5462C9C3CFB0026EB10 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF5452C9C3CFB0026EB10 /* OneSignalExtension */; };
+		756EF5482C9C3CFB0026EB10 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF5472C9C3CFB0026EB10 /* OneSignalFramework */; };
+		756EF54A2C9C3CFB0026EB10 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF5492C9C3CFB0026EB10 /* OneSignalInAppMessages */; };
+		756EF54C2C9C3CFB0026EB10 /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF54B2C9C3CFB0026EB10 /* OneSignalLocation */; };
+		756EF54F2C9C3D080026EB10 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF54E2C9C3D080026EB10 /* AppsFlyerLib */; };
 		75B587042C899DA600F23B08 /* The_legendary_CoupleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587032C899DA600F23B08 /* The_legendary_CoupleApp.swift */; };
 		75B587062C899DA600F23B08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587052C899DA600F23B08 /* ContentView.swift */; };
 		75B587082C899DA800F23B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B587072C899DA800F23B08 /* Assets.xcassets */; };
@@ -61,6 +60,7 @@
 		75B587762C8B2D6F00F23B08 /* TermsofUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587752C8B2D6F00F23B08 /* TermsofUseView.swift */; };
 		75B587782C8B2F4800F23B08 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587772C8B2F4800F23B08 /* ContactUsView.swift */; };
 		75E89A542C90596600812B17 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 75E89A532C90596600812B17 /* codemagic.yaml */; };
+		D33853AE41B32C45B9F0A7CB /* Pods_The_legendary_CoupleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F200497E363A8D70146ACE94 /* Pods_The_legendary_CoupleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,8 +149,10 @@
 		75B587752C8B2D6F00F23B08 /* TermsofUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsofUseView.swift; sourceTree = "<group>"; };
 		75B587772C8B2F4800F23B08 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
 		75E89A532C90596600812B17 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
-		B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9BEE1181F6D4B41A196D30 /* Pods-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary CoupleUITests.release.xcconfig"; path = "Target Support Files/Pods-The legendary CoupleUITests/Pods-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BD452541F7FC16A7A348C13 /* Pods-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary CoupleUITests.debug.xcconfig"; path = "Target Support Files/Pods-The legendary CoupleUITests/Pods-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F200497E363A8D70146ACE94 /* Pods_The_legendary_CoupleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1C09D8B2DB0105C8A182A3 /* Pods-The legendary Couple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple.debug.xcconfig"; path = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,13 +161,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756EF54F2C9C3D080026EB10 /* AppsFlyerLib in Frameworks */,
+				756EF54A2C9C3CFB0026EB10 /* OneSignalInAppMessages in Frameworks */,
+				756EF5482C9C3CFB0026EB10 /* OneSignalFramework in Frameworks */,
 				2B9969D27A3D91DE809C9E3E /* Pods_The_legendary_Couple.framework in Frameworks */,
-				756EF4E22C9AE0FF0026EB10 /* OneSignalLocation in Frameworks */,
-				756EF4DE2C9AE0FF0026EB10 /* OneSignalFramework in Frameworks */,
-				756EF4FD2C9B09130026EB10 /* FirebaseRemoteConfig in Frameworks */,
-				756EF4E02C9AE0FF0026EB10 /* OneSignalInAppMessages in Frameworks */,
-				756EF4DC2C9AE0FF0026EB10 /* OneSignalExtension in Frameworks */,
-				756EF4F82C9AE9380026EB10 /* AppsFlyerLib in Frameworks */,
+				756EF5462C9C3CFB0026EB10 /* OneSignalExtension in Frameworks */,
+				756EF54C2C9C3CFB0026EB10 /* OneSignalLocation in Frameworks */,
+				756EF5432C9C3CEA0026EB10 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178BC27445A67A20B0184BF4 /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework in Frameworks */,
+				D33853AE41B32C45B9F0A7CB /* Pods_The_legendary_CoupleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */,
-				B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */,
 				48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */,
+				F200497E363A8D70146ACE94 /* Pods_The_legendary_CoupleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -344,6 +346,8 @@
 				0CD873C9B226A9DED5615753 /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */,
 				5E8A594BF2A70613A9129189 /* Pods-The legendary CoupleTests.debug.xcconfig */,
 				63D97983A1BBC94159C48E5F /* Pods-The legendary CoupleTests.release.xcconfig */,
+				9BD452541F7FC16A7A348C13 /* Pods-The legendary CoupleUITests.debug.xcconfig */,
+				9B9BEE1181F6D4B41A196D30 /* Pods-The legendary CoupleUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -367,12 +371,12 @@
 			);
 			name = "The legendary Couple";
 			packageProductDependencies = (
-				756EF4DB2C9AE0FF0026EB10 /* OneSignalExtension */,
-				756EF4DD2C9AE0FF0026EB10 /* OneSignalFramework */,
-				756EF4DF2C9AE0FF0026EB10 /* OneSignalInAppMessages */,
-				756EF4E12C9AE0FF0026EB10 /* OneSignalLocation */,
-				756EF4F72C9AE9380026EB10 /* AppsFlyerLib */,
-				756EF4FC2C9B09130026EB10 /* FirebaseRemoteConfig */,
+				756EF5422C9C3CEA0026EB10 /* FirebaseRemoteConfig */,
+				756EF5452C9C3CFB0026EB10 /* OneSignalExtension */,
+				756EF5472C9C3CFB0026EB10 /* OneSignalFramework */,
+				756EF5492C9C3CFB0026EB10 /* OneSignalInAppMessages */,
+				756EF54B2C9C3CFB0026EB10 /* OneSignalLocation */,
+				756EF54E2C9C3D080026EB10 /* AppsFlyerLib */,
 			);
 			productName = "The legendary Couple";
 			productReference = 75B587002C899DA600F23B08 /* The legendary Couple.app */;
@@ -449,9 +453,9 @@
 			);
 			mainGroup = 75B586F72C899DA600F23B08;
 			packageReferences = (
-				756EF4DA2C9AE0FF0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
-				756EF4F62C9AE9380026EB10 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
-				756EF4FB2C9B09120026EB10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				756EF5412C9C3CEA0026EB10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				756EF5442C9C3CFB0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				756EF54D2C9C3D080026EB10 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 			);
 			productRefGroup = 75B587012C899DA600F23B08 /* Products */;
 			projectDirPath = "";
@@ -509,7 +513,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-The legendary Couple-The legendary CoupleUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-The legendary CoupleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -873,7 +877,7 @@
 		};
 		75B5872B2C899DA800F23B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06F95E74CEA72060F9F1B2A3 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */;
+			baseConfigurationReference = 9BD452541F7FC16A7A348C13 /* Pods-The legendary CoupleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -891,7 +895,7 @@
 		};
 		75B5872C2C899DA800F23B08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CD873C9B226A9DED5615753 /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */;
+			baseConfigurationReference = 9B9BEE1181F6D4B41A196D30 /* Pods-The legendary CoupleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -949,23 +953,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		756EF4DA2C9AE0FF0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.4;
-			};
-		};
-		756EF4F62C9AE9380026EB10 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.15.2;
-			};
-		};
-		756EF4FB2C9B09120026EB10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		756EF5412C9C3CEA0026EB10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
@@ -973,38 +961,54 @@
 				minimumVersion = 11.2.0;
 			};
 		};
+		756EF5442C9C3CFB0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.4;
+			};
+		};
+		756EF54D2C9C3D080026EB10 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.15.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		756EF4DB2C9AE0FF0026EB10 /* OneSignalExtension */ = {
+		756EF5422C9C3CEA0026EB10 /* FirebaseRemoteConfig */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 756EF4DA2C9AE0FF0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			package = 756EF5412C9C3CEA0026EB10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		756EF5452C9C3CFB0026EB10 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 756EF5442C9C3CFB0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
 			productName = OneSignalExtension;
 		};
-		756EF4DD2C9AE0FF0026EB10 /* OneSignalFramework */ = {
+		756EF5472C9C3CFB0026EB10 /* OneSignalFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 756EF4DA2C9AE0FF0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			package = 756EF5442C9C3CFB0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
 			productName = OneSignalFramework;
 		};
-		756EF4DF2C9AE0FF0026EB10 /* OneSignalInAppMessages */ = {
+		756EF5492C9C3CFB0026EB10 /* OneSignalInAppMessages */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 756EF4DA2C9AE0FF0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			package = 756EF5442C9C3CFB0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
 			productName = OneSignalInAppMessages;
 		};
-		756EF4E12C9AE0FF0026EB10 /* OneSignalLocation */ = {
+		756EF54B2C9C3CFB0026EB10 /* OneSignalLocation */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 756EF4DA2C9AE0FF0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			package = 756EF5442C9C3CFB0026EB10 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
 			productName = OneSignalLocation;
 		};
-		756EF4F72C9AE9380026EB10 /* AppsFlyerLib */ = {
+		756EF54E2C9C3D080026EB10 /* AppsFlyerLib */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 756EF4F62C9AE9380026EB10 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			package = 756EF54D2C9C3D080026EB10 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
 			productName = AppsFlyerLib;
-		};
-		756EF4FC2C9B09130026EB10 /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 756EF4FB2C9B09120026EB10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
