@@ -3,7 +3,7 @@ import Foundation
 class SavePoints: ObservableObject {
     @Published var value: Int
     private let key = "points"
-    private let defaultValue = 100
+    private let defaultValue = 500
 
     init() {
         // Устанавливаем значение по умолчанию, если его нет в UserDefaults
