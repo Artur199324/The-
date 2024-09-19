@@ -37,9 +37,14 @@ workflows:
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
+      - name: Copy Xcode build logs
+        script: |
+          mkdir -p /tmp/xcodebuild_logs/
+          cp -r $HOME/Library/Developer/Xcode/DerivedData/**/Logs/Build/* /tmp/xcodebuild_logs/
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
+      - /tmp/xcodebuild_logs/**/*.xcactivitylog
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
