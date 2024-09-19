@@ -8,6 +8,11 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
+        certificate_url: $CERTIFICATE_URL # URL к сертификату, загруженному в Codemagic
+        certificate_pass: $CERTIFICATE_PASSWORD # Пароль для сертификата
+        provisioning_profile_url: $PROVISIONING_PROFILE_URL # URL к профилю распространения
+        keychain_path: $HOME/Library/Keychains/login.keychain
+        keychain_password: $KEYCHAIN_PASSWORD
         bundle_identifier: com.thelegendarouple
       vars:
         BUNDLE_ID: "com.thelegendarouple"
@@ -22,9 +27,6 @@ workflows:
           pod install || echo "No Podfile found, skipping pod install."
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
-      - name: Set up provisioning profiles for OneSignalNotificationServiceExtension
-        script: |
-          xcode-project use-profiles --target "OneSignalNotificationServiceExtension" --profile "YOUR_PROFILE_NAME"
       - name: Increment build number
         script: |
           cd $CM_BUILD_DIR
