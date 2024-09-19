@@ -29,8 +29,6 @@ workflows:
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Obfuscate Swift code
         script: |
-          # Simple example of obfuscating Swift code
-          # Replace occurrences of function names or variables with obfuscated names
           find . -name "*.swift" -print0 | xargs -0 sed -i '' -e 's/\b(\w+)\b/$1_obf/g'
       - name: Build ipa for distribution
         script: |
