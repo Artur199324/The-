@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 import UIKit
-import OneSignalFramework
+//import OneSignalFramework
 import AppsFlyerLib
 import AppTrackingTransparency
 import UserNotifications
@@ -28,8 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
         FirebaseApp.configure()
         initializeRemoteConfig()
         // Инициализация OneSignal
-        OneSignal.Debug.setLogLevel(.LL_VERBOSE)
-        OneSignal.initialize("dcf134e0-1928-4947-8bf9-9ebcd1faddfe", withLaunchOptions: launchOptions)
+//        OneSignal.Debug.setLogLevel(.LL_VERBOSE)
+//        OneSignal.initialize("dcf134e0-1928-4947-8bf9-9ebcd1faddfe", withLaunchOptions: launchOptions)
 
         // Подписка на уведомление, когда приложение становится активным
         NotificationCenter.default.addObserver(self,
@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
                                                object: nil)
         
         // Проверяем разрешения на уведомления
-        requestNotificationPermission()
+//        requestNotificationPermission()
         
        
 
@@ -103,14 +103,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
     }
     
     // Запрос разрешения на уведомления
-    private func requestNotificationPermission() {
-        if !UserDefaults.standard.bool(forKey: "notificationPermissionRequested") {
-            OneSignal.Notifications.requestPermission({ accepted in
-                print("User accepted notifications: \(accepted)")
-                UserDefaults.standard.set(true, forKey: "notificationPermissionRequested")
-            }, fallbackToSettings: true)
-        }
-    }
+//    private func requestNotificationPermission() {
+//        if !UserDefaults.standard.bool(forKey: "notificationPermissionRequested") {
+//            OneSignal.Notifications.requestPermission({ accepted in
+//                print("User accepted notifications: \(accepted)")
+//                UserDefaults.standard.set(true, forKey: "notificationPermissionRequested")
+//            }, fallbackToSettings: true)
+//        }
+//    }
     
     // Инициализация AppsFlyer
     private func initializeAppsFlyer() {
