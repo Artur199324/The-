@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
     var campaign: String = "null"
     var appsFlyerID: String = "null"
     let key = "configBool"
+    
     var count = 0
     // Remote Config значения
     var remoteConfigStringValue: String = "null"
