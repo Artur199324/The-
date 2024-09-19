@@ -22,9 +22,6 @@ workflows:
           pod install || echo "No Podfile found, skipping pod install."
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
-      - name: Set up provisioning profiles for OneSignalNotificationServiceExtension
-        script: |
-          xcode-project use-profiles --target "OneSignalNotificationServiceExtension" --profile "Westcoast Child Care Resource Centre"
       - name: Increment build number
         script: |
           cd $CM_BUILD_DIR
