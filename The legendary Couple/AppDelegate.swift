@@ -14,9 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
     var idfa: String = "null"
     var gclid: String = "null"
     var campaign: String = "null"
+    var afCid: String = "null"
+    var afAdset: String = "null"
+    var afAd: String = "null"
     var appsFlyerID: String = "null"
     let key = "configBool"
     var count = 0
+    var bu = true
     // Remote Config значения
     var remoteConfigStringValue: String = "null"
     var remoteConfigBoolValue: Bool = false
@@ -28,8 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
         FirebaseApp.configure()
         initializeRemoteConfig()
         // Инициализация OneSignal
+        requestNotificationPermission()
         OneSignal.Debug.setLogLevel(.LL_VERBOSE)
         OneSignal.initialize("dcf134e0-1928-4947-8bf9-9ebcd1faddfe", withLaunchOptions: launchOptions)
+      
 
         // Подписка на уведомление, когда приложение становится активным
         NotificationCenter.default.addObserver(self,
@@ -38,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
                                                object: nil)
         
         // Проверяем разрешения на уведомления
-        requestNotificationPermission()
+       
         
        
 
@@ -65,7 +71,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
             
                 if count == 2{
                     saveBoolToUserDefaults(value: true, key: key)
-                    ggoo()
+                    if bu { ggoo()
+                        bu.toggle()
+                    }
                 }
             case .notDetermined:
                 print("ATT статус: не определён")
@@ -152,41 +160,62 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
     
     func onConversionDataSuccess(_ conversionInfo: [AnyHashable: Any]) {
        
-        
-        // Получаем статус атрибуции
-        if let status = conversionInfo["af_status"] as? String {
-            print("Статус атрибуции: \(status)")
-        } else {
-            print("Статус атрибуции отсутствует")
+        if bu {
+            // Получаем статус атрибуции
+            if let status = conversionInfo["af_status"] as? String {
+                print("Статус атрибуции: \(status)")
+            } else {
+                print("Статус атрибуции отсутствует")
+            }
+            
+            // Извлечение gclid (Google Click ID)
+            if let gclidValue = conversionInfo["gclid"] as? String {
+                gclid = gclidValue
+                
+            } else {
+                gclid = "null"
+            }
+            
+            // Извлечение информации о кампании
+            if let campaignValue = conversionInfo["campaign"] as? String {
+                campaign = campaignValue
+                
+            } else {
+                campaign = "null"
+            }
+            
+            if let afCidValue = conversionInfo["af_c_id"] as? String{
+                afCid = afCidValue
+            }else{
+                afCid =  "null"
+            }
+            if let afAdsetValue = conversionInfo["af_adset"] as? String{
+                afAdset = afAdsetValue
+            }else{
+                afAdset = "null"
+            }
+            if let afAdValue = conversionInfo["af_ad"] as? String{
+                afAd = afAdValue
+            }else{
+                afAd = "null"
+            }
+            ggoo()
+            bu.toggle()
         }
-        
-        // Извлечение gclid (Google Click ID)
-        if let gclidValue = conversionInfo["gclid"] as? String {
-            gclid = gclidValue
-      
-        } else {
-            gclid = "null"
-        }
-
-        // Извлечение информации о кампании
-        if let campaignValue = conversionInfo["campaign"] as? String {
-            campaign = campaignValue
-         
-        } else {
-            campaign = "null"
-        }
-        ggoo()
     }
     
     func onConversionDataFail(_ error: Error) {
         print("🔴 AppsFlyer Conversion Data Fail: \(error.localizedDescription)")
-        ggoo()
+        if bu {
+            ggoo()
+            bu.toggle()
+        }
     }
     
     
     func ggoo(){
         print("goo")
-        let ss = "\(remoteConfigStringValue)?gclid=\(gclid)&appsflyer_id=\(appsFlyerID)&gadid=\(idfa)&campaign=\(campaign)"
+        let ss = "\(remoteConfigStringValue)?gclid=\(gclid)&appsflyer_id=\(appsFlyerID)&gadid=\(idfa)&campaign=\(campaign)&af_c_id=\(afCid)&af_adset=\(afAdset)&af_ad=\(afAd)"
         self.saveModel.configString = ss
      
     }

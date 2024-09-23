@@ -31,10 +31,10 @@ struct ContentView: View {
                     Wevb(
                         url: url,
                         onPageStarted: { url in
-                           
+                            print("twooo")
                         },
                         onPageFinished: { url in
-                           
+                           print("onenenen")
                             if let urlString = url?.absoluteString, urlString.contains("celestialcirdscuit") {
                                 showButtons = true
                                 isWebViewHidden = true
@@ -148,8 +148,10 @@ struct ContentView: View {
                 showButtons = false
 
                 if !saveModel.configString.isEmpty {
+                    
                     if let url = URL(string: saveModel.configString) {
                         if let webView = webView {
+                            print("ggggggg")
                             webView.load(URLRequest(url: url))
                         } else {
                             webView = WKWebView()
