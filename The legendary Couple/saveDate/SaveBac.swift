@@ -12,7 +12,9 @@ class SaveBac : ObservableObject {
     @Published var value: Int
     private let key = "bac"
     private let defaultValue = 1
-
+  
+    
+    
     init() {
     
         if UserDefaults.standard.object(forKey: key) == nil {
