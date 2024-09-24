@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		178BC27445A67A20B0184BF4 /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */; };
-		2B9969D27A3D91DE809C9E3E /* Pods_The_legendary_Couple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; };
 		694B2E7F8E5E3C51D9F33252 /* Pods_The_legendary_CoupleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */; };
 		756EF4F52C9AE6270026EB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF4F42C9AE6270026EB10 /* AppDelegate.swift */; };
 		756EF4F82C9AE9380026EB10 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4F72C9AE9380026EB10 /* AppsFlyerLib */; };
@@ -16,7 +15,6 @@
 		756EF4FD2C9B09130026EB10 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4FC2C9B09130026EB10 /* FirebaseRemoteConfig */; };
 		756EF4FF2C9B0FBC0026EB10 /* SaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF4FE2C9B0FBC0026EB10 /* SaveModel.swift */; };
 		756EF5012C9B16E30026EB10 /* Wevb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF5002C9B16E30026EB10 /* Wevb.swift */; };
-		757AE986F0CC0F2272D33760 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */; };
 		75A20A362CA29DF400121398 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A20A352CA29DF400121398 /* NotificationService.swift */; };
 		75A20A3A2CA29DF400121398 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 75A20A332CA29DF300121398 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		75A20A3F2CA2A82A00121398 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 75A20A3E2CA2A82A00121398 /* OneSignalExtension */; };
@@ -68,6 +66,10 @@
 		75B587762C8B2D6F00F23B08 /* TermsofUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587752C8B2D6F00F23B08 /* TermsofUseView.swift */; };
 		75B587782C8B2F4800F23B08 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587772C8B2F4800F23B08 /* ContactUsView.swift */; };
 		75E89A542C90596600812B17 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 75E89A532C90596600812B17 /* codemagic.yaml */; };
+		75EC9EC72CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */; };
+		75EC9EC82CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75EC9ECA2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; };
+		75EC9ECB2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,28 @@
 				75A20A3A2CA29DF400121398 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EC9EC92CA2F56D0020CBA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75EC9EC82CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EC9ECC2CA2F57B0020CBA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75EC9ECB2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -181,9 +205,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757AE986F0CC0F2272D33760 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Frameworks */,
 				75A20A452CA2A82A00121398 /* OneSignalLocation in Frameworks */,
 				75A20A412CA2A82A00121398 /* OneSignalFramework in Frameworks */,
+				75EC9EC72CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Frameworks */,
 				75A20A432CA2A82A00121398 /* OneSignalInAppMessages in Frameworks */,
 				75A20A3F2CA2A82A00121398 /* OneSignalExtension in Frameworks */,
 			);
@@ -194,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B29DF52C9C71F300E336DE /* OneSignalInAppMessages in Frameworks */,
-				2B9969D27A3D91DE809C9E3E /* Pods_The_legendary_Couple.framework in Frameworks */,
+				75EC9ECA2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Frameworks */,
 				756EF4FD2C9B09130026EB10 /* FirebaseRemoteConfig in Frameworks */,
 				756EF4F82C9AE9380026EB10 /* AppsFlyerLib in Frameworks */,
 				75B29DF12C9C71F300E336DE /* OneSignalExtension in Frameworks */,
@@ -408,6 +432,7 @@
 				75A20A2F2CA29DF300121398 /* Sources */,
 				75A20A302CA29DF300121398 /* Frameworks */,
 				75A20A312CA29DF300121398 /* Resources */,
+				75EC9EC92CA2F56D0020CBA8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -433,6 +458,7 @@
 				75B586FD2C899DA600F23B08 /* Frameworks */,
 				75B586FE2C899DA600F23B08 /* Resources */,
 				756EF4F22C9AE24F0026EB10 /* Embed Foundation Extensions */,
+				75EC9ECC2CA2F57B0020CBA8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
