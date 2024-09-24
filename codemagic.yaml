@@ -13,6 +13,7 @@ workflows:
         BUNDLE_ID: "com.thelegendarouple"
         XCODE_WORKSPACE: "The legendary Couple.xcworkspace"
         XCODE_SCHEME: "The legendary Couple"
+        ONE_SIGNAL_EXTENSION_SCHEME: "OneSignalNotificationServiceExtension"
         APP_STORE_APPLE_ID: 6670786489
       xcode: latest
       cocoapods: default
@@ -35,6 +36,9 @@ workflows:
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
+          xcode-project build-ipa \
+            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
+            --scheme "$ONE_SIGNAL_EXTENSION_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
