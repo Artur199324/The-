@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0520CFA0BDDD8BAF86B203F89C2AFC21 /* Pods-The legendary CoupleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D405623F4659E123E4CCC399AF31734 /* Pods-The legendary CoupleTests-dummy.m */; };
+		0520CFA0BDDD8BAF86B203F89C2AFC21 /* Pods-The legendary CoupleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F9995A1C78F9AD787393267A896CD3 /* Pods-The legendary CoupleTests-dummy.m */; };
 		17A179DF2AB05ACCDAF2ABA5EB8C117E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1A259C1FBC951E9A383CF9D58AE30905 /* Pods-The legendary Couple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D72B8E882302C4857316E4426379A67D /* Pods-The legendary Couple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CD50477EDDD7C44CCEEA00E54B71B57 /* Pods-The legendary CoupleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D98B0B1E9CAFE4BDFA40FAF3E4E155 /* Pods-The legendary CoupleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A259C1FBC951E9A383CF9D58AE30905 /* Pods-The legendary Couple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D05952D6556AF6AC7A41410611543446 /* Pods-The legendary Couple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD50477EDDD7C44CCEEA00E54B71B57 /* Pods-The legendary CoupleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDB0F251A7353761ED35315D0953B9D /* Pods-The legendary CoupleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		240B77F1FC9E5A6F1CAB631C841FC3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		34A2E6F5F3C6830B3292F84862DB471F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		58AB78EDFEBD75A0A3CC1FEF596DE5C3 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55D7358716D1BCD05A9021F9EFD6F92 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		622A0D3E98451FBD3BD90840AF925ED0 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EB12B510E9E0383DE38D8266BD7904 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-dummy.m */; };
-		6A37A49734502A4CE01A2C63F7AD221F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		728DD3551A5FD9F719AEBCDA567162D6 /* Pods-The legendary Couple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0909A4378CFCA080C9CE3395A1B021AD /* Pods-The legendary Couple-dummy.m */; };
-		E9F042AAB65F05D6FCCA264FB700B2A4 /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CCBDDD4748E6CD24AE49FDABB872EE /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBC1B448976974392CCD32ED1DCC9502 /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F85687C0BCA0CE40C63FEF0DBB7F0 /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */; };
+		728DD3551A5FD9F719AEBCDA567162D6 /* Pods-The legendary Couple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 575680B227AF621435A16E62600AC882 /* Pods-The legendary Couple-dummy.m */; };
+		E9F042AAB65F05D6FCCA264FB700B2A4 /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E2EE654AF9A0645CFE4A75C8DB10DD /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC1B448976974392CCD32ED1DCC9502 /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 604AD313D959A0FB0E5AE4C72CDDDCAC /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,44 +29,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0909A4378CFCA080C9CE3395A1B021AD /* Pods-The legendary Couple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-dummy.m"; sourceTree = "<group>"; };
-		0BE26B41EF99EF0EA33F4342F6EEF8FD /* Pods-The legendary Couple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D405623F4659E123E4CCC399AF31734 /* Pods-The legendary CoupleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary CoupleTests-dummy.m"; sourceTree = "<group>"; };
-		21C4FE806632505AC310A064AD7D4D6C /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		284C5EE86E99E3819CADB062B2AC37B0 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
-		2CC0014756EE5AFEB9DB68E388D2D148 /* Pods-The legendary Couple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-acknowledgements.markdown"; sourceTree = "<group>"; };
-		324F827E4EEA8C5CAAF159E12F535E23 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		3D0F85687C0BCA0CE40C63FEF0DBB7F0 /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-The legendary CoupleUITests-dummy.m"; sourceTree = "<group>"; };
-		4D590836672E5DCCBA1AE3C6E4FDC1D0 /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4F3FF1CA7DA5DC619A46DE4762E9302C /* Pods-The legendary Couple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-Info.plist"; sourceTree = "<group>"; };
-		50E3610C0AD2E0AEFFDC5864855E581B /* Pods-The legendary CoupleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.release.xcconfig"; sourceTree = "<group>"; };
-		63CCBDDD4748E6CD24AE49FDABB872EE /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h"; sourceTree = "<group>"; };
-		6658664DA238EE95BDB1CCB31852EC20 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
+		2E191F06450CA1DBC5C78AFC3BBCF91B /* Pods-The legendary CoupleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary CoupleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3004BCF8758DB50F1B5F75FCE1594DB1 /* Pods-The legendary CoupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E519496C3FE8AFACD70BAE2D1B703BB /* Pods-The legendary Couple-The legendary CoupleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple-The legendary CoupleUITests.modulemap"; sourceTree = "<group>"; };
+		533026F21F0F286C563ADBA32E7693A7 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		575680B227AF621435A16E62600AC882 /* Pods-The legendary Couple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-dummy.m"; sourceTree = "<group>"; };
+		5BF6F93689AD364C5AEEE72291241D4B /* Pods-The legendary CoupleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary CoupleTests.modulemap"; sourceTree = "<group>"; };
+		604AD313D959A0FB0E5AE4C72CDDDCAC /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-The legendary CoupleUITests-dummy.m"; sourceTree = "<group>"; };
+		6614F3295FDDD87F79A82864ECCB61FD /* Pods-The legendary Couple-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D01724F4137DCD89C014FD1892B71BF /* Pods-The legendary CoupleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E086846DC223D7D082E746E715C15F1 /* Pods-The legendary Couple-The legendary CoupleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-The legendary CoupleUITests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74CB53E8129BB6ABD89AFC1FA2B1A153 /* Pods-The legendary CoupleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary CoupleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		75AFF3339E8FE32A14F26C95AEB4CF7E /* Pods-The legendary CoupleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-Info.plist"; sourceTree = "<group>"; };
-		77814C77ABCD8629971F6BFFC2915130 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AA5E827486400BA659433442804AEA4 /* Pods-The legendary Couple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-Info.plist"; sourceTree = "<group>"; };
 		7B8BE69774C9DF2DFD4E672FB9BAE99C /* Pods-The legendary Couple */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary Couple"; path = Pods_The_legendary_Couple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CF050E30D1A2F908FC00BC3B09D4BFE /* Pods-The legendary Couple-The legendary CoupleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple-The legendary CoupleUITests.modulemap"; sourceTree = "<group>"; };
-		83EB12B510E9E0383DE38D8266BD7904 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
-		89C2E33ACF36ED992FA6170E1017D590 /* Pods-The legendary Couple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple.modulemap"; sourceTree = "<group>"; };
+		82629A9404D31441420C5CD1DA0AFC59 /* Pods-The legendary CoupleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-Info.plist"; sourceTree = "<group>"; };
+		84E2EE654AF9A0645CFE4A75C8DB10DD /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7550E58A26C1E28C424139558EF395F /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
-		AC65F56C64865DFE554D6FAB29A72D5B /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B1464D4B9D7717E7A4B6EF5EF8443EED /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
-		B20D8AC44C66CEEECBFAF239E4885450 /* Pods-The legendary Couple-The legendary CoupleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-The legendary CoupleUITests-Info.plist"; sourceTree = "<group>"; };
+		A38525EF94E973C4158ED35371C50542 /* Pods-The legendary Couple-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A749F4D1A5662895F1EB2DCC68F03922 /* Pods-The legendary Couple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.release.xcconfig"; sourceTree = "<group>"; };
 		BAA4CB06FABDCEE08598E4C4F1EB17D9 /* Pods-The legendary CoupleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary CoupleTests"; path = Pods_The_legendary_CoupleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC54A8C70AEC0B6DD4C05D8323DD8053 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary Couple-OneSignalNotificationServiceExtension"; path = Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D98B0B1E9CAFE4BDFA40FAF3E4E155 /* Pods-The legendary CoupleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary CoupleTests-umbrella.h"; sourceTree = "<group>"; };
-		C8EBFB17611479DA31A0E813E805A4CE /* Pods-The legendary Couple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.debug.xcconfig"; sourceTree = "<group>"; };
-		D72B8E882302C4857316E4426379A67D /* Pods-The legendary Couple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-umbrella.h"; sourceTree = "<group>"; };
+		BEEE825BA01256D1A41276AD9DE14D3A /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3EB98097C936D4A2D0AA73C0425341C /* Pods-The legendary Couple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary Couple.modulemap"; sourceTree = "<group>"; };
+		D05952D6556AF6AC7A41410611543446 /* Pods-The legendary Couple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-umbrella.h"; sourceTree = "<group>"; };
 		D9A1D349AD2F887D3B6AD1C947F066A6 /* Pods-The legendary Couple-The legendary CoupleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-The legendary Couple-The legendary CoupleUITests"; path = Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF74D7FB3239859FCB63B2344542F960 /* Pods-The legendary CoupleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E06A211EDC5EA503714A17AF987920EC /* Pods-The legendary CoupleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-The legendary CoupleTests.modulemap"; sourceTree = "<group>"; };
-		F55D7358716D1BCD05A9021F9EFD6F92 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary Couple-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
-		F6D655B6259EF80CA1AEF923D8FFCE1E /* Pods-The legendary CoupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary CoupleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6FF07DB635810B1E906484F48CA7C7C /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F8DCE9EB3BAC34C0BA6E49AA383F54F4 /* Pods-The legendary Couple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.release.xcconfig"; sourceTree = "<group>"; };
+		DF8C1C09B1860A9045294A28B6081F40 /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFDB0F251A7353761ED35315D0953B9D /* Pods-The legendary CoupleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-The legendary CoupleTests-umbrella.h"; sourceTree = "<group>"; };
+		E866D6FC11CD5950885F7D23A717B6CA /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0F9995A1C78F9AD787393267A896CD3 /* Pods-The legendary CoupleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-The legendary CoupleTests-dummy.m"; sourceTree = "<group>"; };
+		F7A86F3AB1631A6BDC52264C6262B205 /* Pods-The legendary CoupleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-The legendary CoupleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F98400E80456D94BF41A4F6E531D97AA /* Pods-The legendary Couple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-The legendary Couple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,33 +85,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF85F2809802A228268D786F99442E4B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A37A49734502A4CE01A2C63F7AD221F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		225988B3F307A81466A36DA94041BDFD /* Pods-The legendary Couple-OneSignalNotificationServiceExtension */ = {
-			isa = PBXGroup;
-			children = (
-				284C5EE86E99E3819CADB062B2AC37B0 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.modulemap */,
-				21C4FE806632505AC310A064AD7D4D6C /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
-				B1464D4B9D7717E7A4B6EF5EF8443EED /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-acknowledgements.plist */,
-				83EB12B510E9E0383DE38D8266BD7904 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-dummy.m */,
-				6658664DA238EE95BDB1CCB31852EC20 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-Info.plist */,
-				F55D7358716D1BCD05A9021F9EFD6F92 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-umbrella.h */,
-				324F827E4EEA8C5CAAF159E12F535E23 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig */,
-				A7550E58A26C1E28C424139558EF395F /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig */,
-			);
-			name = "Pods-The legendary Couple-OneSignalNotificationServiceExtension";
-			path = "Target Support Files/Pods-The legendary Couple-OneSignalNotificationServiceExtension";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,58 +96,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5DA8F615D062D87B87C6C3B572C47237 /* Products */ = {
+		68A17C9A7AB2DFFB528D30DECF5B0F70 /* Pods-The legendary Couple */ = {
 			isa = PBXGroup;
 			children = (
-				7B8BE69774C9DF2DFD4E672FB9BAE99C /* Pods-The legendary Couple */,
-				BC54A8C70AEC0B6DD4C05D8323DD8053 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension */,
-				D9A1D349AD2F887D3B6AD1C947F066A6 /* Pods-The legendary Couple-The legendary CoupleUITests */,
-				BAA4CB06FABDCEE08598E4C4F1EB17D9 /* Pods-The legendary CoupleTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9754B4E16633B4D70C2F4EC0C19E4AA9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A499F599BF247D5A3957722EAFCCAF3 /* Pods-The legendary Couple */,
-				225988B3F307A81466A36DA94041BDFD /* Pods-The legendary Couple-OneSignalNotificationServiceExtension */,
-				DF38AD01D6523417C5AC431D6E5CD511 /* Pods-The legendary Couple-The legendary CoupleUITests */,
-				ABA49966B269A20B33847966011FAA19 /* Pods-The legendary CoupleTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9A499F599BF247D5A3957722EAFCCAF3 /* Pods-The legendary Couple */ = {
-			isa = PBXGroup;
-			children = (
-				89C2E33ACF36ED992FA6170E1017D590 /* Pods-The legendary Couple.modulemap */,
-				2CC0014756EE5AFEB9DB68E388D2D148 /* Pods-The legendary Couple-acknowledgements.markdown */,
-				0BE26B41EF99EF0EA33F4342F6EEF8FD /* Pods-The legendary Couple-acknowledgements.plist */,
-				0909A4378CFCA080C9CE3395A1B021AD /* Pods-The legendary Couple-dummy.m */,
-				4F3FF1CA7DA5DC619A46DE4762E9302C /* Pods-The legendary Couple-Info.plist */,
-				D72B8E882302C4857316E4426379A67D /* Pods-The legendary Couple-umbrella.h */,
-				C8EBFB17611479DA31A0E813E805A4CE /* Pods-The legendary Couple.debug.xcconfig */,
-				F8DCE9EB3BAC34C0BA6E49AA383F54F4 /* Pods-The legendary Couple.release.xcconfig */,
+				C3EB98097C936D4A2D0AA73C0425341C /* Pods-The legendary Couple.modulemap */,
+				A38525EF94E973C4158ED35371C50542 /* Pods-The legendary Couple-acknowledgements.markdown */,
+				6614F3295FDDD87F79A82864ECCB61FD /* Pods-The legendary Couple-acknowledgements.plist */,
+				575680B227AF621435A16E62600AC882 /* Pods-The legendary Couple-dummy.m */,
+				7AA5E827486400BA659433442804AEA4 /* Pods-The legendary Couple-Info.plist */,
+				D05952D6556AF6AC7A41410611543446 /* Pods-The legendary Couple-umbrella.h */,
+				F98400E80456D94BF41A4F6E531D97AA /* Pods-The legendary Couple.debug.xcconfig */,
+				A749F4D1A5662895F1EB2DCC68F03922 /* Pods-The legendary Couple.release.xcconfig */,
 			);
 			name = "Pods-The legendary Couple";
 			path = "Target Support Files/Pods-The legendary Couple";
 			sourceTree = "<group>";
 		};
-		ABA49966B269A20B33847966011FAA19 /* Pods-The legendary CoupleTests */ = {
+		7847E5326F224CCB3F36602A3D8A0976 /* Pods-The legendary Couple-The legendary CoupleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E06A211EDC5EA503714A17AF987920EC /* Pods-The legendary CoupleTests.modulemap */,
-				74CB53E8129BB6ABD89AFC1FA2B1A153 /* Pods-The legendary CoupleTests-acknowledgements.markdown */,
-				DF74D7FB3239859FCB63B2344542F960 /* Pods-The legendary CoupleTests-acknowledgements.plist */,
-				1D405623F4659E123E4CCC399AF31734 /* Pods-The legendary CoupleTests-dummy.m */,
-				75AFF3339E8FE32A14F26C95AEB4CF7E /* Pods-The legendary CoupleTests-Info.plist */,
-				C5D98B0B1E9CAFE4BDFA40FAF3E4E155 /* Pods-The legendary CoupleTests-umbrella.h */,
-				F6D655B6259EF80CA1AEF923D8FFCE1E /* Pods-The legendary CoupleTests.debug.xcconfig */,
-				50E3610C0AD2E0AEFFDC5864855E581B /* Pods-The legendary CoupleTests.release.xcconfig */,
+				3E519496C3FE8AFACD70BAE2D1B703BB /* Pods-The legendary Couple-The legendary CoupleUITests.modulemap */,
+				BEEE825BA01256D1A41276AD9DE14D3A /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown */,
+				DF8C1C09B1860A9045294A28B6081F40 /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist */,
+				604AD313D959A0FB0E5AE4C72CDDDCAC /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */,
+				6E086846DC223D7D082E746E715C15F1 /* Pods-The legendary Couple-The legendary CoupleUITests-Info.plist */,
+				84E2EE654AF9A0645CFE4A75C8DB10DD /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */,
+				533026F21F0F286C563ADBA32E7693A7 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */,
+				E866D6FC11CD5950885F7D23A717B6CA /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */,
 			);
-			name = "Pods-The legendary CoupleTests";
-			path = "Target Support Files/Pods-The legendary CoupleTests";
+			name = "Pods-The legendary Couple-The legendary CoupleUITests";
+			path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests";
+			sourceTree = "<group>";
+		};
+		AB87AF6786FC4794AD04E9B86B48B0DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A17C9A7AB2DFFB528D30DECF5B0F70 /* Pods-The legendary Couple */,
+				7847E5326F224CCB3F36602A3D8A0976 /* Pods-The legendary Couple-The legendary CoupleUITests */,
+				F1DD3AA789BC5319147B43979DB97122 /* Pods-The legendary CoupleTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -191,9 +143,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5DA8F615D062D87B87C6C3B572C47237 /* Products */,
-				9754B4E16633B4D70C2F4EC0C19E4AA9 /* Targets Support Files */,
+				D0DA518E8650F1F5C38520DF04CD6B34 /* Products */,
+				AB87AF6786FC4794AD04E9B86B48B0DD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0DA518E8650F1F5C38520DF04CD6B34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B8BE69774C9DF2DFD4E672FB9BAE99C /* Pods-The legendary Couple */,
+				D9A1D349AD2F887D3B6AD1C947F066A6 /* Pods-The legendary Couple-The legendary CoupleUITests */,
+				BAA4CB06FABDCEE08598E4C4F1EB17D9 /* Pods-The legendary CoupleTests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -204,20 +166,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF38AD01D6523417C5AC431D6E5CD511 /* Pods-The legendary Couple-The legendary CoupleUITests */ = {
+		F1DD3AA789BC5319147B43979DB97122 /* Pods-The legendary CoupleTests */ = {
 			isa = PBXGroup;
 			children = (
-				7CF050E30D1A2F908FC00BC3B09D4BFE /* Pods-The legendary Couple-The legendary CoupleUITests.modulemap */,
-				4D590836672E5DCCBA1AE3C6E4FDC1D0 /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.markdown */,
-				F6FF07DB635810B1E906484F48CA7C7C /* Pods-The legendary Couple-The legendary CoupleUITests-acknowledgements.plist */,
-				3D0F85687C0BCA0CE40C63FEF0DBB7F0 /* Pods-The legendary Couple-The legendary CoupleUITests-dummy.m */,
-				B20D8AC44C66CEEECBFAF239E4885450 /* Pods-The legendary Couple-The legendary CoupleUITests-Info.plist */,
-				63CCBDDD4748E6CD24AE49FDABB872EE /* Pods-The legendary Couple-The legendary CoupleUITests-umbrella.h */,
-				77814C77ABCD8629971F6BFFC2915130 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */,
-				AC65F56C64865DFE554D6FAB29A72D5B /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */,
+				5BF6F93689AD364C5AEEE72291241D4B /* Pods-The legendary CoupleTests.modulemap */,
+				2E191F06450CA1DBC5C78AFC3BBCF91B /* Pods-The legendary CoupleTests-acknowledgements.markdown */,
+				F7A86F3AB1631A6BDC52264C6262B205 /* Pods-The legendary CoupleTests-acknowledgements.plist */,
+				F0F9995A1C78F9AD787393267A896CD3 /* Pods-The legendary CoupleTests-dummy.m */,
+				82629A9404D31441420C5CD1DA0AFC59 /* Pods-The legendary CoupleTests-Info.plist */,
+				DFDB0F251A7353761ED35315D0953B9D /* Pods-The legendary CoupleTests-umbrella.h */,
+				3004BCF8758DB50F1B5F75FCE1594DB1 /* Pods-The legendary CoupleTests.debug.xcconfig */,
+				6D01724F4137DCD89C014FD1892B71BF /* Pods-The legendary CoupleTests.release.xcconfig */,
 			);
-			name = "Pods-The legendary Couple-The legendary CoupleUITests";
-			path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests";
+			name = "Pods-The legendary CoupleTests";
+			path = "Target Support Files/Pods-The legendary CoupleTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,14 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A259C1FBC951E9A383CF9D58AE30905 /* Pods-The legendary Couple-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB38892663F1DB0336E364C585133D21 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58AB78EDFEBD75A0A3CC1FEF596DE5C3 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,24 +249,6 @@
 			productReference = D9A1D349AD2F887D3B6AD1C947F066A6 /* Pods-The legendary Couple-The legendary CoupleUITests */;
 			productType = "com.apple.product-type.framework";
 		};
-		C60DACA092DB9C36C5DE563AD5D05DC5 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B73E728005240E6BB5C11477594E7D4F /* Build configuration list for PBXNativeTarget "Pods-The legendary Couple-OneSignalNotificationServiceExtension" */;
-			buildPhases = (
-				CB38892663F1DB0336E364C585133D21 /* Headers */,
-				3DC9A069E07361863E3FDC99B1958CAE /* Sources */,
-				AF85F2809802A228268D786F99442E4B /* Frameworks */,
-				297B78CFD925A83E289C042B414221F1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-The legendary Couple-OneSignalNotificationServiceExtension";
-			productName = Pods_The_legendary_Couple_OneSignalNotificationServiceExtension;
-			productReference = BC54A8C70AEC0B6DD4C05D8323DD8053 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension */;
-			productType = "com.apple.product-type.framework";
-		};
 		CF84B8BC55DCF265E40E151EECBAFB8F /* Pods-The legendary Couple */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA6559A945A6DEAFE49A0461328C3DFB /* Build configuration list for PBXNativeTarget "Pods-The legendary Couple" */;
@@ -350,12 +286,11 @@
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
-			productRefGroup = 5DA8F615D062D87B87C6C3B572C47237 /* Products */;
+			productRefGroup = D0DA518E8650F1F5C38520DF04CD6B34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CF84B8BC55DCF265E40E151EECBAFB8F /* Pods-The legendary Couple */,
-				C60DACA092DB9C36C5DE563AD5D05DC5 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension */,
 				17768E3800E929D98D1B2EFC06862854 /* Pods-The legendary Couple-The legendary CoupleUITests */,
 				16F3B94CF5FA31A12A1E6A0984326682 /* Pods-The legendary CoupleTests */,
 			);
@@ -364,13 +299,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		06884A11FE4CDE3E1EE26D281CF487B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		297B78CFD925A83E289C042B414221F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,14 +338,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DC9A069E07361863E3FDC99B1958CAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				622A0D3E98451FBD3BD90840AF925ED0 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA5DA5034D898C227776C3542860F0DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,7 +360,7 @@
 /* Begin XCBuildConfiguration section */
 		0A5AB0CAF7A6DFFC75FDA9C2C92E2953 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6D655B6259EF80CA1AEF923D8FFCE1E /* Pods-The legendary CoupleTests.debug.xcconfig */;
+			baseConfigurationReference = 3004BCF8758DB50F1B5F75FCE1594DB1 /* Pods-The legendary CoupleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -477,7 +397,7 @@
 		};
 		225F17C850B83C7E39D090F0F34DF190 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC65F56C64865DFE554D6FAB29A72D5B /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */;
+			baseConfigurationReference = E866D6FC11CD5950885F7D23A717B6CA /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -512,43 +432,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		22CDA93E37184E6D3B2AD08B419C04DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 324F827E4EEA8C5CAAF159E12F535E23 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-The legendary Couple-OneSignalNotificationServiceExtension/Pods-The legendary Couple-OneSignalNotificationServiceExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-The legendary Couple-OneSignalNotificationServiceExtension/Pods-The legendary Couple-OneSignalNotificationServiceExtension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -618,7 +501,7 @@
 		};
 		730E59725C9597CF4D398BEFFE838E78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77814C77ABCD8629971F6BFFC2915130 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */;
+			baseConfigurationReference = 533026F21F0F286C563ADBA32E7693A7 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -655,7 +538,7 @@
 		};
 		744A8F56DBB68A06E547500176087EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8EBFB17611479DA31A0E813E805A4CE /* Pods-The legendary Couple.debug.xcconfig */;
+			baseConfigurationReference = F98400E80456D94BF41A4F6E531D97AA /* Pods-The legendary Couple.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -692,7 +575,7 @@
 		};
 		AB31C70E6B831005C09478A3A09677CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E3610C0AD2E0AEFFDC5864855E581B /* Pods-The legendary CoupleTests.release.xcconfig */;
+			baseConfigurationReference = 6D01724F4137DCD89C014FD1892B71BF /* Pods-The legendary CoupleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -728,47 +611,9 @@
 			};
 			name = Release;
 		};
-		B0B51CF4765A1E37A7508DA3A0B8AD81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7550E58A26C1E28C424139558EF395F /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-The legendary Couple-OneSignalNotificationServiceExtension/Pods-The legendary Couple-OneSignalNotificationServiceExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-The legendary Couple-OneSignalNotificationServiceExtension/Pods-The legendary Couple-OneSignalNotificationServiceExtension.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BE1A3F37C942ECD8D4C97B15B497F7D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8DCE9EB3BAC34C0BA6E49AA383F54F4 /* Pods-The legendary Couple.release.xcconfig */;
+			baseConfigurationReference = A749F4D1A5662895F1EB2DCC68F03922 /* Pods-The legendary Couple.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -901,15 +746,6 @@
 			buildConfigurations = (
 				744A8F56DBB68A06E547500176087EC2 /* Debug */,
 				BE1A3F37C942ECD8D4C97B15B497F7D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B73E728005240E6BB5C11477594E7D4F /* Build configuration list for PBXNativeTarget "Pods-The legendary Couple-OneSignalNotificationServiceExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22CDA93E37184E6D3B2AD08B419C04DE /* Debug */,
-				B0B51CF4765A1E37A7508DA3A0B8AD81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

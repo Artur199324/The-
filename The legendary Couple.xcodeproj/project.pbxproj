@@ -66,7 +66,6 @@
 		75B587762C8B2D6F00F23B08 /* TermsofUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587752C8B2D6F00F23B08 /* TermsofUseView.swift */; };
 		75B587782C8B2F4800F23B08 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587772C8B2F4800F23B08 /* ContactUsView.swift */; };
 		75E89A542C90596600812B17 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 75E89A532C90596600812B17 /* codemagic.yaml */; };
-		75EC9EC72CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */; };
 		75EC9EC82CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75EC9ECA2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; };
 		75EC9ECB2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -135,7 +134,6 @@
 /* Begin PBXFileReference section */
 		06F95E74CEA72060F9F1B2A3 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0CD873C9B226A9DED5615753 /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0EFF0794EA23E155E643086D /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-OneSignalNotificationServiceExtension/Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		1342FABA60AE67F27E3683CE /* Pods-The legendary Couple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple.release.xcconfig"; path = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple.release.xcconfig"; sourceTree = "<group>"; };
 		48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_CoupleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8A594BF2A70613A9129189 /* Pods-The legendary CoupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary CoupleTests.debug.xcconfig"; path = "Target Support Files/Pods-The legendary CoupleTests/Pods-The legendary CoupleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 		75E89A532C90596600812B17 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		75EC9EC32CA2DD130020CBA8 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
 		B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB9FA635ED7631F5EA35B842 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-OneSignalNotificationServiceExtension/Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1C09D8B2DB0105C8A182A3 /* Pods-The legendary Couple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple.debug.xcconfig"; path = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,7 +204,6 @@
 			files = (
 				75A20A452CA2A82A00121398 /* OneSignalLocation in Frameworks */,
 				75A20A412CA2A82A00121398 /* OneSignalFramework in Frameworks */,
-				75EC9EC72CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Frameworks */,
 				75A20A432CA2A82A00121398 /* OneSignalInAppMessages in Frameworks */,
 				75A20A3F2CA2A82A00121398 /* OneSignalExtension in Frameworks */,
 			);
@@ -415,8 +411,6 @@
 				0CD873C9B226A9DED5615753 /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */,
 				5E8A594BF2A70613A9129189 /* Pods-The legendary CoupleTests.debug.xcconfig */,
 				63D97983A1BBC94159C48E5F /* Pods-The legendary CoupleTests.release.xcconfig */,
-				0EFF0794EA23E155E643086D /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig */,
-				BB9FA635ED7631F5EA35B842 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -428,7 +422,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75A20A3B2CA29DF400121398 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				6CBF651AD7536E9684367FA3 /* [CP] Check Pods Manifest.lock */,
 				75A20A2F2CA29DF300121398 /* Sources */,
 				75A20A302CA29DF300121398 /* Frameworks */,
 				75A20A312CA29DF300121398 /* Resources */,
@@ -649,28 +642,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6CBF651AD7536E9684367FA3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-The legendary Couple-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D82980B662E0092D25E08081 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -788,7 +759,6 @@
 /* Begin XCBuildConfiguration section */
 		75A20A3C2CA29DF400121398 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFF0794EA23E155E643086D /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -816,7 +786,6 @@
 		};
 		75A20A3D2CA29DF400121398 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9FA635ED7631F5EA35B842 /* Pods-The legendary Couple-OneSignalNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;

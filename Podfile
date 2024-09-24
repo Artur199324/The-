@@ -16,7 +16,4 @@ target 'The legendary Couple' do
     # Pods for testing
   end
 
-  target 'OneSignalNotificationServiceExtension' do
-    use_frameworks!
-  end
 end
