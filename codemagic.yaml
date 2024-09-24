@@ -9,8 +9,14 @@ workflows:
       ios_signing:
         provisioning_profiles:
           - target: "The legendary Couple"
+            distribution_certificate: 
+              certificate_path: "ios/certs/distribution_certificate.p12"
+              certificate_password: "your_password_here"
             profile_path: "ios/certs/main_app_provisioning_profile.mobileprovision"
           - target: "OneSignalNotificationServiceExtension"
+            distribution_certificate:
+              certificate_path: "ios/certs/distribution_certificate.p12"
+              certificate_password: "your_password_here"
             profile_path: "ios/certs/onesignal_extension_provisioning_profile.mobileprovision"
       vars:
         BUNDLE_ID: "com.thelegendarouple"
