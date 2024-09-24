@@ -7,9 +7,8 @@ workflows:
       app_store_connect: ios9
     environment:
       ios_signing:
-        provisioning_profiles:
-          com.thelegendarouple: "ios/certs/main_app_provisioning_profile.mobileprovision"
-          com.thelegendarouple.OneSignalNotificationServiceExtension: "ios/certs/onesignal_extension_provisioning_profile.mobileprovision"
+        distribution_type: app_store
+        bundle_identifier: com.thelegendarouple
       vars:
         BUNDLE_ID: "com.thelegendarouple"
         XCODE_WORKSPACE: "The legendary Couple.xcworkspace"
