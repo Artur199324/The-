@@ -7,16 +7,12 @@ workflows:
       app_store_connect: ios9
     environment:
       ios_signing:
-        provisioning_profiles:
-          - bundle_identifier: com.thelegendarouple
-            profile_path: "ios/certs/main_app_provisioning_profile.mobileprovision"
-          - bundle_identifier: com.thelegendarouple.OneSignalNotificationServiceExtension
-            profile_path: "ios/certs/onesignal_extension_provisioning_profile.mobileprovision"
+        distribution_type: app_store
+        bundle_identifier: com.thelegendarouple
       vars:
         BUNDLE_ID: "com.thelegendarouple"
         XCODE_WORKSPACE: "The legendary Couple.xcworkspace"
         XCODE_SCHEME: "The legendary Couple"
-        ONE_SIGNAL_EXTENSION_SCHEME: "OneSignalNotificationServiceExtension"
         APP_STORE_APPLE_ID: 6670786489
       xcode: latest
       cocoapods: default
@@ -39,9 +35,6 @@ workflows:
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
-          xcode-project build-ipa \
-            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
-            --scheme "$ONE_SIGNAL_EXTENSION_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
