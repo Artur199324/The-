@@ -8,10 +8,8 @@ workflows:
     environment:
       ios_signing:
         provisioning_profiles:
-          - profile: "ios/certs/main_app_provisioning_profile.mobileprovision"
-            bundle_id: "com.thelegendarouple"
-          - profile: "ios/certs/onesignal_extension_provisioning_profile.mobileprovision"
-            bundle_id: "com.thelegendarouple.OneSignalNotificationServiceExtension"
+          com.thelegendarouple: "ios/certs/main_app_provisioning_profile.mobileprovision"
+          com.thelegendarouple.OneSignalNotificationServiceExtension: "ios/certs/onesignal_extension_provisioning_profile.mobileprovision"
       vars:
         BUNDLE_ID: "com.thelegendarouple"
         XCODE_WORKSPACE: "The legendary Couple.xcworkspace"
