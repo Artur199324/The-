@@ -8,7 +8,9 @@ workflows:
     environment:
       ios_signing:
         provisioning_profiles:
-          - bundle_identifier: com.thelegendarouple.OneSignalNotificationServiceExtension
+          - target: "The legendary Couple"
+            profile_path: "ios/certs/main_app_provisioning_profile.mobileprovision"
+          - target: "OneSignalNotificationServiceExtension"
             profile_path: "ios/certs/onesignal_extension_provisioning_profile.mobileprovision"
       vars:
         BUNDLE_ID: "com.thelegendarouple"
