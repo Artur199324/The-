@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178BC27445A67A20B0184BF4 /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */; };
 		694B2E7F8E5E3C51D9F33252 /* Pods_The_legendary_CoupleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */; };
 		756EF4F52C9AE6270026EB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EF4F42C9AE6270026EB10 /* AppDelegate.swift */; };
 		756EF4F82C9AE9380026EB10 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 756EF4F72C9AE9380026EB10 /* AppsFlyerLib */; };
@@ -66,9 +65,9 @@
 		75B587762C8B2D6F00F23B08 /* TermsofUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587752C8B2D6F00F23B08 /* TermsofUseView.swift */; };
 		75B587782C8B2F4800F23B08 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B587772C8B2F4800F23B08 /* ContactUsView.swift */; };
 		75E89A542C90596600812B17 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 75E89A532C90596600812B17 /* codemagic.yaml */; };
-		75EC9EC82CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75EC9ECA2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; };
 		75EC9ECB2CA2F57B0020CBA8 /* Pods_The_legendary_Couple.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A15F23CF74B3E90612BF0243 /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76573D5FC733BD1998DAE23D /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,17 +106,6 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75EC9EC92CA2F56D0020CBA8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				75EC9EC82CA2F56D0020CBA8 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		75EC9ECC2CA2F57B0020CBA8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,13 +120,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06F95E74CEA72060F9F1B2A3 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0CD873C9B226A9DED5615753 /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1342FABA60AE67F27E3683CE /* Pods-The legendary Couple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple.release.xcconfig"; path = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple.release.xcconfig"; sourceTree = "<group>"; };
+		139C5D5F58927A222D767E4D /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_CoupleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8A594BF2A70613A9129189 /* Pods-The legendary CoupleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary CoupleTests.debug.xcconfig"; path = "Target Support Files/Pods-The legendary CoupleTests/Pods-The legendary CoupleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		63D97983A1BBC94159C48E5F /* Pods-The legendary CoupleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary CoupleTests.release.xcconfig"; path = "Target Support Files/Pods-The legendary CoupleTests/Pods-The legendary CoupleTests.release.xcconfig"; sourceTree = "<group>"; };
 		6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D48765DD794E22F3F5658AD /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; path = "Target Support Files/Pods-The legendary Couple-The legendary CoupleUITests/Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		756EF4F32C9AE5AE0026EB10 /* The legendary Couple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The legendary Couple.entitlements"; sourceTree = "<group>"; };
 		756EF4F42C9AE6270026EB10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		756EF4F92C9B08B50026EB10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -192,7 +180,7 @@
 		75B587772C8B2F4800F23B08 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
 		75E89A532C90596600812B17 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		75EC9EC32CA2DD130020CBA8 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
-		B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76573D5FC733BD1998DAE23D /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_legendary_Couple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1C09D8B2DB0105C8A182A3 /* Pods-The legendary Couple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The legendary Couple.debug.xcconfig"; path = "Target Support Files/Pods-The legendary Couple/Pods-The legendary Couple.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -235,7 +223,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178BC27445A67A20B0184BF4 /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework in Frameworks */,
+				A15F23CF74B3E90612BF0243 /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +234,9 @@
 			isa = PBXGroup;
 			children = (
 				F1D125131FC66AB5619A16F1 /* Pods_The_legendary_Couple.framework */,
-				B8B9DFE2C023A8320822C1BA /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */,
 				48245676D02C1D439D12C975 /* Pods_The_legendary_CoupleTests.framework */,
 				6BAB9D760DF907A44C967775 /* Pods_The_legendary_Couple_OneSignalNotificationServiceExtension.framework */,
+				76573D5FC733BD1998DAE23D /* Pods_The_legendary_Couple_The_legendary_CoupleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -407,10 +395,10 @@
 			children = (
 				FD1C09D8B2DB0105C8A182A3 /* Pods-The legendary Couple.debug.xcconfig */,
 				1342FABA60AE67F27E3683CE /* Pods-The legendary Couple.release.xcconfig */,
-				06F95E74CEA72060F9F1B2A3 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */,
-				0CD873C9B226A9DED5615753 /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */,
 				5E8A594BF2A70613A9129189 /* Pods-The legendary CoupleTests.debug.xcconfig */,
 				63D97983A1BBC94159C48E5F /* Pods-The legendary CoupleTests.release.xcconfig */,
+				139C5D5F58927A222D767E4D /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */,
+				6D48765DD794E22F3F5658AD /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -425,7 +413,6 @@
 				75A20A2F2CA29DF300121398 /* Sources */,
 				75A20A302CA29DF300121398 /* Frameworks */,
 				75A20A312CA29DF300121398 /* Resources */,
-				75EC9EC92CA2F56D0020CBA8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -494,7 +481,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B5872A2C899DA800F23B08 /* Build configuration list for PBXNativeTarget "The legendary CoupleUITests" */;
 			buildPhases = (
-				193768F00FEAF40E0EE2E526 /* [CP] Check Pods Manifest.lock */,
+				F9E70A5FE1E9968E41DEAEF9 /* [CP] Check Pods Manifest.lock */,
 				75B587162C899DA800F23B08 /* Sources */,
 				75B587172C899DA800F23B08 /* Frameworks */,
 				75B587182C899DA800F23B08 /* Resources */,
@@ -598,28 +585,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		193768F00FEAF40E0EE2E526 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-The legendary Couple-The legendary CoupleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3CD83C16438E59BF5E1F9D03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -658,6 +623,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-The legendary CoupleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E70A5FE1E9968E41DEAEF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The legendary Couple-The legendary CoupleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1050,7 +1037,7 @@
 		};
 		75B5872B2C899DA800F23B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06F95E74CEA72060F9F1B2A3 /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */;
+			baseConfigurationReference = 139C5D5F58927A222D767E4D /* Pods-The legendary Couple-The legendary CoupleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1068,7 +1055,7 @@
 		};
 		75B5872C2C899DA800F23B08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CD873C9B226A9DED5615753 /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */;
+			baseConfigurationReference = 6D48765DD794E22F3F5658AD /* Pods-The legendary Couple-The legendary CoupleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
